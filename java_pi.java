@@ -9,7 +9,8 @@ import org.apache.commons.io.*;
 public class java_pi {
 
 	public static void main(String[] args) throws InvalidPasswordException, IOException {
-		// TODO Auto-generated method stub
+		// Main thead to open a PDF file and read the text within.
+		//Need to determine how to format text so that the output resembles what is in the PDF file.
         int k;
         double acc = 0.0;
         File file = new File("U:\\Open SIMS\\Data for Open SIMS\\Application and Confirmation Data\\OUAC.PDF");
